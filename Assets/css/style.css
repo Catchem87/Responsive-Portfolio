@@ -231,7 +231,7 @@ h2 {
 /* Desktop on screens that at 980px to 767px */
 @media (max-width: 980px) {
     .header {
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
     }
     .container {
@@ -239,7 +239,7 @@ h2 {
     }
     .bio {
         margin: 0px;
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
     }
     .bioContent {
@@ -247,44 +247,44 @@ h2 {
     }
     .containerContact {
         margin: 0px;
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
     }
     .contactHeader {
         margin: 0px;
-        max-width: 940px;
+        max-width: 980px;
     }
     .contactRequest {
         margin: 0px;
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
     }
     .name {
-        max-width: 940px;
+        max-width: 980px;
     }
     .nameInput {
-        max-width: 940px;
+        max-width: 980px;
         width: 95%;
     }
     .email {
-        max-width: 940px;
+        max-width: 980px;
     }
     .emailInput {
-        max-width: 940px;
+        max-width: 980px;
         width: 95%;
     }
     .message {
-        max-width: 940px;
+        max-width: 980px;
     }
     .messageInput {
-        max-width: 940px;
+        max-width: 980px;
         width: 95%;
     }
     .submit {
         margin-left: 0px;
     }
     .containerPortfolio {
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
         margin: 0px;
     }
@@ -292,17 +292,17 @@ h2 {
         margin: 0px;
     }
     .containerOne {
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
         margin: 0px;
     }
     .containerTwo {
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
         margin: 0px;
     }
     .containerThree {
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
         margin: 0px;
     }
@@ -310,7 +310,7 @@ h2 {
         position: sticky;
         left: 0;
         bottom: 0;
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
         height: 10px;
         font-size: 0.75rem;
@@ -319,7 +319,7 @@ h2 {
         position: sticky;
         left: 0;
         bottom: 0;
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
         height: 10px;
         font-size: 0.75rem;
@@ -328,7 +328,7 @@ h2 {
         position: sticky;
         left: 0;
         bottom: 0;
-        max-width: 940px;
+        max-width: 980px;
         width: 100%;
         height: 10px;
         font-size: 0.75rem;
@@ -451,6 +451,12 @@ h2 {
     .container {
         margin: 0px;
     }
+    .leftContainer {
+        width: 55%;
+    }
+    .rightContainer {
+        width: 45%;
+    }
     .bio {
         margin: 0px;
         max-width: 640px;
@@ -521,7 +527,7 @@ h2 {
         margin: 0px;
     }
     .footerIndex {
-        position: sticky;
+        position: relative;
         left: 0;
         bottom: 0;
         max-width: 640px;
