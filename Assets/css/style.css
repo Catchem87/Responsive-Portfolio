@@ -1,3 +1,4 @@
+/* Header */
 body {
     background-color: lightgray;
     margin: 0px;
@@ -152,15 +153,35 @@ h2 {
     margin-left: 12%;
     margin-right: 12%;
 }
+.imageOne {
+    max-width: 320px;
+    width: 45%;
+}
+.imageTwo {
+    max-width: 320px;
+    width: 45%;
+}
 .containerTwo {
     width: 960px;
     margin-left: 12%;
     margin-right: 12%;
 }
+.imageThree {
+    max-width: 320px;
+    width: 45%;
+}
+.imageFour {
+    max-width: 320px;
+    width: 45%;
+}
 .containerThree {
     width: 960px;
     margin-left: 12%;
     margin-right: 12%;
+}
+.imageFive {
+    max-width: 320px;
+    width: 45%;
 }
 .footerPortfolio{
     position: sticky;
@@ -205,10 +226,159 @@ h2 {
     border-top: solid 3px teal;
 }
 
-@media only screen and (max-width: 768px) {
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
+/* Media Queries */
+
+/* Desktop on screens that at 980px to 767px */
+@media (max-width: 980px) {
+    .bio {
+        max-width: 70%;
+    }
 }
+/* Tablet on screens that are 768px to 641px */
+@media (max-width: 768px) {
+    .container {
+        margin: 0px;
+        max-width: 768px;
+        width: 100%;
+    }
+    .bio {
+        margin: 0px;
+        max-width: 768px;
+    }
+    .bioContent {
+        max-width: 768px;
+    }
+    .containerContact {
+        margin: 0px;
+        max-width: 768px;
+    }
+    #contactInfo {
+        max-width: 768px;
+    }
+    .name {
+        max-width: 60%;
+    }
+    .nameInput {
+        max-width: 60%;
+    }
+    .email {
+        max-width: 60%;
+    }
+    .emailInput {
+        max-width: 60%;
+    }
+    .message {
+        max-width: 60%;
+    }
+    .messageInput {
+        max-width: 60%;
+    }
+
+}
+/* Phone on screens that are 640px or less */
+@media (max-width: 640px) {
+    .header {
+        position: static;
+        max-width: 640px;
+    }
+    .container {
+        margin: 0px;
+    }
+    .bio {
+        margin: 0px;
+        max-width: 640px;
+        width: 100%;
+    }
+    .bioContent {
+        margin: 0px;
+    }
+    .containerContact {
+        margin: 0px;
+        max-width: 640px;
+        width: 100%;
+    }
+    .contactHeader {
+        margin: 0px;
+        max-width: 640px;
+    }
+    .contactRequest {
+        margin: 0px;
+        max-width: 640px;
+        width: 100%;
+    }
+    .name {
+        max-width: 640px;
+    }
+    .nameInput {
+        max-width: 640px;
+        width: 95%;
+    }
+    .email {
+        max-width: 640px;
+    }
+    .emailInput {
+        max-width: 640px;
+        width: 95%;
+    }
+    .message {
+        max-width: 640px;
+    }
+    .messageInput {
+        max-width: 640px;
+        width: 95%;
+    }
+    .submit {
+        margin-left: 0px;
+    }
+    .containerPortfolio {
+        max-width: 640px;
+        width: 100%;
+        margin: 0px;
+    }
+    .portfolioHeader {
+        margin: 0px;
+    }
+    .containerOne {
+        max-width: 640px;
+        width: 100%;
+        margin: 0px;
+    }
+    .containerTwo {
+        max-width: 640px;
+        width: 100%;
+        margin: 0px;
+    }
+    .containerThree {
+        max-width: 640px;
+        width: 100%;
+        margin: 0px;
+    }
+    .footerIndex {
+        position: sticky;
+        left: 0;
+        bottom: 0;
+        max-width: 640px;
+        width: 100%;
+        height: 10px;
+        font-size: 0.75rem;
+    }
+    .footerPortfolio {
+        position: sticky;
+        left: 0;
+        bottom: 0;
+        max-width: 640px;
+        width: 100%;
+        height: 10px;
+        font-size: 0.75rem;
+    }
+    .footerContact {
+        position: sticky;
+        left: 0;
+        bottom: 0;
+        max-width: 640px;
+        width: 100%;
+        height: 10px;
+        font-size: 0.75rem;
+    }
 }
 
