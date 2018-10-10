@@ -212,7 +212,7 @@ h2 {
     border-top: solid 3px teal;
 }
 .footerIndex {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     background-color: #666666;
