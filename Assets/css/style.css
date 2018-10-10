@@ -307,7 +307,7 @@ h2 {
         margin: 0px;
     }
     .footerIndex {
-        position: sticky;
+        position: fixed;
         left: 0;
         bottom: 0;
         max-width: 980px;
@@ -414,7 +414,7 @@ h2 {
         margin: 0px;
     }
     .footerIndex {
-        position: sticky;
+        position: fixed;
         left: 0;
         bottom: 0;
         max-width: 768px;
